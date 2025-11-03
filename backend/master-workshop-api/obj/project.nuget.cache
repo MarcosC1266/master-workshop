@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "yAvpr81beS0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\MJVA_\\Personal\\master-workshop\\backend\\master-workshop-api\\master-workshop-api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\MJVA_\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\MJVA_\\.nuget\\packages\\microsoft.openapi\\1.6.25\\microsoft.openapi.1.6.25.nupkg.sha512",
+    "C:\\Users\\MJVA_\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\9.0.6\\swashbuckle.aspnetcore.swagger.9.0.6.nupkg.sha512",
+    "C:\\Users\\MJVA_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\9.0.6\\swashbuckle.aspnetcore.swaggergen.9.0.6.nupkg.sha512",
+    "C:\\Users\\MJVA_\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\9.0.6\\swashbuckle.aspnetcore.swaggerui.9.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
