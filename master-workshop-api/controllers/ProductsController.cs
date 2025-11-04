@@ -1,5 +1,6 @@
 ﻿using master_workshop_api.interfaces;
 using master_workshop_api.repositories;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 

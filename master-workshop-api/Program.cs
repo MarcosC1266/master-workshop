@@ -16,6 +16,17 @@ builder.Services.AddControllers();
 
 builder.Services.AddSingleton<ProductsRepository>();
 
+// ← AGREGAR CORS: Configurar política de CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()      // Permite cualquier origen
+            .AllowAnyMethod()      // Permite cualquier método (GET, POST, PUT, DELETE, etc.)
+            .AllowAnyHeader();     // Permite cualquier header
+    });
+});
+
 // ← AGREGAR: Registrar el repositorio para inyección de dependencias
 // builder.Services.AddScoped<ProductsRepository>();
 
@@ -27,6 +38,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors("AllowAll");
 
 app.UseHttpsRedirection();
 
