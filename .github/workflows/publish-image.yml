@@ -17,5 +17,5 @@ jobs:
           echo ${{ secrets.GH_PAT }} | docker login ghcr.io -u MarcosC1266 --password-stdin
           docker build ./master-workshop-frontend -t ghcr.io/marcosc1266/master-workshop-frontend:latest
           docker build ./master-workshop-api -t ghcr.io/marcosc1266/master-workshop-api:latest
-          docker push ghcr.io/marcosc1266/master-workshop-frontend:1.0
-          docker push ghcr.io/marcosc1266/master-workshop-api:1.0
+          docker push ghcr.io/marcosc1266/master-workshop-frontend:latest
+          docker push ghcr.io/marcosc1266/master-workshop-api:latest
