@@ -3,5 +3,5 @@ export interface Env {
 }
 
 export const environment: Env = {
-  apiUrl: 'http://api.masterworkshop.site/api'
+  apiUrl: 'https://api.masterworkshop.site/api'
 };
